@@ -322,6 +322,7 @@ section.cta {
         grid-area: 4 / 1 / span 4 / span 1;
     }
     .cta-heading{
+        padding-top: 12vw;
         text-align: center;
         font-size: 12vw;
     }
@@ -336,7 +337,7 @@ section.cta {
     }
     .cta-text{
         text-align: center;
-        padding: 15% 0px;
+        padding: 5% 0px;
         font-size: 5vw;
     }
 }
