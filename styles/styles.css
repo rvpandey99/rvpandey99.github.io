@@ -172,6 +172,12 @@ body {
  * Desktop first approach
  * Check in last for media queries
 */
+
+
+.mobile-header {
+    display: none;
+}
+
 .desk-header  {
     background-image: linear-gradient(#010101, #181818);
     display: flex;
@@ -183,9 +189,6 @@ body {
     padding: 0px 5%;
 }
 
-.mobile-header {
-    display: none;
-}
 
 .desk-header div.brand {
     flex-grow: 8;
