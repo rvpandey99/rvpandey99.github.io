@@ -231,6 +231,7 @@ nav > ul > li {
 a {
     text-decoration: none;
     color: whitesmoke;
+    font-weight: 500;
     transition: color 0.5s;
 }
 
@@ -239,7 +240,7 @@ header nav a{
 }
 
 header nav a:hover {
-    color: #00CDAC;
+    color: #E89223;
 }
 
 
@@ -272,7 +273,7 @@ header nav a:hover {
 section.cta {
     margin: 10px 5% 0px 5%;
     display: grid;
-    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr); 
+    grid-template-columns: minmax(400px, 1fr) minmax(300px, 1fr); 
     transition: all 0.5s ease-in-out;
 }
 
@@ -322,8 +323,7 @@ section.cta {
  * check media queries in last
 */
 
-
-@media(max-width: 900px){
+@media(max-width: 730px){
     /*Header Part*/
     header {
         display: block;
