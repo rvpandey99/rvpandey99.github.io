@@ -1,4 +1,4 @@
-let hamberger = document.querySelector('#hamberger-menu')
+let hamberger = document.querySelector('#hamberger-menu');
 hamberger.addEventListener('click', function () {
     hamberger.style.display = 'none';
     let nav = document.querySelector('header nav'); 
@@ -11,7 +11,7 @@ hamberger.addEventListener('click', function () {
     },400);
 } );
 
-let hambergerX = document.querySelector('#hamberger-x')
+let hambergerX = document.querySelector('#hamberger-x');
 hambergerX.addEventListener('click', function () {
     hambergerX.style.display = 'none';
     let nav = document.querySelector('header nav');
@@ -21,3 +21,8 @@ hambergerX.addEventListener('click', function () {
         document.querySelector('#hamberger-menu').style.display = 'inline-block';
     },400);
 } );
+
+window.addEventListener('resize', function () { 
+    "use strict";
+    window.location.reload(); 
+});
