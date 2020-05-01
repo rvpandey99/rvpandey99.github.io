@@ -1,7 +1,7 @@
 let hamberger = document.querySelector('#hamberger-menu');
 hamberger.addEventListener('click', function () {
     hamberger.style.display = 'none';
-    let nav = document.querySelector('header nav'); 
+    let nav = document.querySelector('.mobile-header nav'); 
     nav.style.display = 'flex';
     setTimeout(()=>{
         nav.classList.add('horizTranslate');
@@ -14,7 +14,7 @@ hamberger.addEventListener('click', function () {
 let hambergerX = document.querySelector('#hamberger-x');
 hambergerX.addEventListener('click', function () {
     hambergerX.style.display = 'none';
-    let nav = document.querySelector('header nav');
+    let nav = document.querySelector('.mobile-header nav');
     nav.classList.remove('horizTranslate');
     setTimeout(()=>{
         nav.style.display = 'none';
@@ -22,7 +22,7 @@ hambergerX.addEventListener('click', function () {
     },400);
 } );
 
-window.addEventListener('resize', function () { 
-    "use strict";
-    window.location.reload(); 
-});
+// window.addEventListener('resize', function () { 
+//     "use strict";
+//     window.location.reload(); 
+// });
