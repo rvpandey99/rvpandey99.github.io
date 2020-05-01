@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.5" height="87.622" viewBox="0 0 78.5 87.622">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1" y1="0.583" x2="0.021" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#02aab0"/>
+      <stop offset="1" stop-color="#00cdac"/>
+    </linearGradient>
+  </defs>
+  <g id="hamburger" transform="translate(-297)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M0,0H78.5V87.622L0,73.107Z" transform="translate(297)"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(320 27)">
+      <rect class="cls-3" width="37" height="5" rx="2.5"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="36" height="4" rx="2"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-2" transform="translate(320 57)">
+      <rect class="cls-3" width="37" height="5" rx="2.5"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="36" height="4" rx="2"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-2" transform="translate(320 42)">
+      <rect class="cls-3" width="37" height="5" rx="2.5"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="36" height="4" rx="2"/>
+    </g>
+  </g>
+</svg>
