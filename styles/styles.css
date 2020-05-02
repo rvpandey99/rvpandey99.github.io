@@ -368,7 +368,7 @@ section.cta {
         background-size: 100vw 266px;
         padding-bottom: 30px;
         transform: translateY(-366px) translateX(366px);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
     }
     .mobile-header  nav.horizTranslate {
         transform: translateY(-8px) translateX(0px);
